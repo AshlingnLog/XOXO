@@ -1,0 +1,4 @@
+      onClick={(e) => {
+        setPlayer((player + 1) % 2);
+        status = `Player ${player}`;
+        e.target.style.background = "red";
